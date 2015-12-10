@@ -7,7 +7,7 @@ Docker image for hugo static page generator (https://gohugo.io)
 Create a new repo with the following Dockerfile
 
 ```
-FROM docker-hugo:latest
+FROM mattoddie/hugo:latest
 ```
 
 Put your hugo site in the root of the repo, you should see the following output
